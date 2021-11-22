@@ -1,6 +1,6 @@
-# ktm-ui.github.io
+# ktm-ui
 An sports bike web UI built using jus HTML/CSS
 
 ## Live Demo
 
-https://cyberacademy.pythonanywhere.com/
+https://mukesh0x0.github.io/ktm-ui/
