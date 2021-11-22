@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>KTM Bike</title>
+
+	<!-- linking CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--font Awesome-->
+	<link href='https://use.fontawesome.com/releases/v5.0.10/css/all.css' rel='stylesheet'/>
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+	<!-- navbar -->
+	<nav>
+		<div class="logo">
+			<img src="images/ktm-logo.png" height="100%" alt="KTM">
+		</div>
+		<ul class="nav-menus" id="nav-menus">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#features">Features</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<!-- close button -->
+			<div class="close-nav" onclick="document.getElementById('nav-menus').style.display='none'; document.getElementById('hamburger').style.display='flex'">&#10005;</div>
+
+		</ul>
+		<div class="hamburger" id="hamburger" onclick="document.getElementById('nav-menus').style.display='flex'; document.getElementById('hamburger').style.display='none'"><i class="fa fa-bars"></i></div>
+	</nav>
+
+	<!-- home mockup -->
+	<section class="home" id="home">
+		<div class="mh-content">
+			<h2>Ready To <span>Race</span></h2>
+			<a href="#contact">Ride Now</a>
+		</div>
+
+		<!-- show content on small screens -->
+		<div class="content">
+			<content><span>Engine</span><br><span>373 cc</span></content>
+			<content><span>Max Speed</span><br><span style="float: right;">170 Kmph</span></content>
+		</div>
+		
+		<content><span>Engine</span><br><span>373 cc</span></content>
+		<img src="images/ktm-rc390.png" height="60%" alt="KTM">
+		<content><span>Max Speed</span><br><span style="float: right;">170 Kmph</span></content>
+
+		<!-- social media links -->
+		<ul class="mh-social">
+			<li><a href="https://www.instagram.com/mukesh0x0/"><i class="fab fa-instagram"></i></a></li>
+			<li><a href="https://github.com/mukesh0x0"><i class="fab fa-github"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/mukesh101/"><i class="fab fa-linkedin"></i></a></li>
+		</ul>
+	</section>
+
+	<!-- feature mockup -->
+	<section class="features" id="features">
+		<div class="container">
+			<br><br>
+			<h2>Top Features</h2>
+			<!-- engine -->
+			<div class="feature">
+				<img src="images/engine.png" alt="ktm" height="200px" width="200px">
+				<div>
+					<h2>ENGINE</h2>
+					<p>
+						The 2022 KTM RC 390 uses the proven 373 cc liquid-cooled, single-cylinder four-stroke engine to maximum effect. Revised engine mapping, improved torque figures, and smoother, hard-hitting power delivery means this state-of-the-art powerplant churns out unmatched performance.
+					</p>
+				</div>
+			</div>
+			<!-- exhaust -->
+			<div class="feature">
+				<img src="images/exhaust.png" alt="ktm" height="200px" width="200px">
+				<div>
+					<h2>EXHAUST</h2>
+					<p>
+						Taking its design cues from the MotoGP™ RC16, the exhaust of the KTM RC 390 boasts stainless steel headers with an aluminum muffler, which not only look the part but give the KTM RC 390 a distinct, throaty rumble as it charges through the gears and onto the redline.
+					</p>
+				</div>
+			</div>
+
+			<!-- fuel tank -->
+			<div class="feature">
+				<img src="images/fuel-tank.png" alt="ktm" height="200px" width="200px">
+				<div>
+					<h2>FUEL TANK</h2>
+					<p>
+						A new, larger 13.7 liter fuel tank is inspired by the KTM Moto3 race bike, and provides the best-in-class fuel capacity. This, combined with the KTM RC 390’s low fuel consumption, means you can go further, faster, for longer.
+					</p>
+				</div>
+			</div>
+
+			<!-- handlebar -->
+			<div class="feature">
+				<img src="images/handlebar.png" alt="ktm" height="200px" width="200px">
+				<div>
+					<h2>HANDLEBAR</h2>
+					<p>
+						Designed to be usable for both track and street applications, the clip on handlebars are 15 mm higher than previous generations for improved rider comfort and line of sight, but can be lowered by 10 mm for a racier, more track-orientated position. 
+					</p>
+				</div>
+			</div>
+
+			<!-- seat -->
+			<div class="feature">
+				<img src="images/seat.png" alt="ktm" height="200px" width="200px">
+				<div>
+					<h2>SEAT</h2>
+					<p>
+						Rider comfort which doesn't impact on performance, the all-new KTM RC 390 seat features thicker seat foam for improved comfort, whilst a new seat profile improves rider movement and step over. Finished in a premium material for better grip, even in wet weather.	
+					</p>
+				</div>
+			</div>
+
+			<!-- suspension -->
+			<div class="feature">
+				<img src="images/suspension.png" alt="ktm" height="200px" width="200px">
+				<div>
+					<h2>SUSPENSION</h2>
+					<p>
+						The 2022 KTM RC 390 makes use of a completely new suspension setup, giving it real race-bike credibility with unmatched suspension specifications in the sub-400 cc superpsports segment.	
+					</p>
+				</div>
+			</div>
+
+
+
+			
+		</div>
+	</section>
+
+	<!-- contact mockup -->
+	<section class="contact" id="contact">
+		<div class="container">
+			<div class="form-wrapper">
+				<div class="contact-info">
+					<div class="overlay"></div>
+					<div>
+						<p>
+							<i class="fa fa-envelope"></i> cliuser099@gmail.com <br><br>
+							<!-- social media links -->
+							<a href="https://www.instagram.com/mukesh0x0/" title="instagram"><i class="fab fa-instagram"></i></a>&nbsp;
+							<a href="https://github.com/mukesh0x0" title="GitHub"><i class="fab fa-github"></i></a>&nbsp;
+							<a href="https://www.linkedin.com/in/mukesh101/" itemtype="linkedin"><i class="fab fa-linkedin"></i><a>&nbsp;
+							
+						</p>
+					</div>
+				</div>
+				<form action="">
+					<h3>Contact</h3>
+					<input type="text" name="name" placeholder="Name" required> <br>
+					<input type="email" name="email" placeholder="Email" required> <br>
+					<textarea name="message" id="msg" cols="30" rows="5" placeholder="message"></textarea> <br>
+					<button> &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i class="fa fa-arrow-right"></i></button>
+				</form>
+			</div>
+		</div>
+		
+	
+	<!-- footer -->
+	<footer>
+		<div><p>Designed by: <a href="#">Mukesh B</a></p></div>
+	</footer>
+	
+	</section>
+
+	
+</body>
+</html>
