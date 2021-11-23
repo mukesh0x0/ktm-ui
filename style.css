@@ -170,22 +170,22 @@ section{
 	transform: skew(20deg);
 }
 .feature::before, .feature::after {
-	content: '';
+    content: '';
     position: absolute;
     height: 100px;
     width: 40%;
     display: block;
 }
 .feature::before{
-	top: -8px;
+    top: -8px;
     left: -8px;
     border-top: 2px solid #ee0000;
     border-left: 2px solid #ee0000;
 }
 .feature::after{
-	bottom: -8px;
-	right: -8px;
-	border-bottom: 1px solid #00ee0f;
+    bottom: -8px;
+    right: -8px;
+    border-bottom: 1px solid #00ee0f;
     border-right: 2px solid #00ee0f;
 }
 .feature div, .feature img{
@@ -277,7 +277,7 @@ footer a{
 .close-nav{display: none;}
 
 /* responsive style */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 	/*navbar*/
 	.nav-menus li a{
 		font-size: 2.4rem;
