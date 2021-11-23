@@ -1,5 +1,5 @@
 # ktm-ui
-An sports bike web UI built using jus HTML/CSS
+An sports bike web UI built using just HTML/CSS
 
 ## Live Demo
 
